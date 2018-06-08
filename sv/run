@@ -9,4 +9,4 @@ cd ../
 mkdir -p tmp/working
 
 echo "=== Starting hiawatha @ $(date)"
-exec hiawatha -d -c "$PWD"/configs
+exec hiawatha -d -c "$PWD"/config
