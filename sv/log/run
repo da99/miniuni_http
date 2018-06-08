@@ -4,7 +4,7 @@
 
 set -u -e
 dir=/var/log
-sv_name=hiawatha
+sv_name=miniuni_http
 
 mkdir -p         $dir/$sv_name
 exec svlogd -ttt $dir/$sv_name
